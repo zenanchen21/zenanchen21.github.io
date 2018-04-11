@@ -13,7 +13,7 @@
     var arr = new Array();  
     var vis = new Array();  
     var mark = new Array();  
-    var stringpro = "王人禾全球粉丝后援会,臭鱼烂虾队,妹子们,GQ超会玩,三吏三别,鑫鑫殷殷粉丝团,路人们"  
+    var stringpro = "王人禾全球粉丝后援会,臭鱼烂虾队,妹子们,GQ超会玩,ERA,鑫鑫殷殷粉丝团,路人们"  
     var pro = new Array();  
     pro = stringpro.split(",");  
     var c = 0;  
@@ -33,7 +33,7 @@
             mark[tt] = 1;  
                 vis[cont++] = tt;  
             }  
-            if(cont == 6)  
+            if(cont == 7)  
                 break;  
     }  
       
@@ -89,7 +89,7 @@
         vis[i] = tmp[i];  
     }  
     document.getElementById("count").innerHTML = arr.length;  
-    if(arr.length == 6){  
+    if(arr.length == 7){  
         alert("已经抽完!");  
     }  
  }  
