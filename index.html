@@ -14,7 +14,7 @@
     var arr = new Array();  
     var vis = new Array();  
     var mark = new Array();  
-    var stringpro = "ERA,臭鱼烂虾队,重量级煎饼队,Blank"  
+    var stringpro = "王人禾全球粉丝后援会,臭鱼烂虾队,重量级煎饼🥞,GQ超会玩,ERA,鑫鑫殷殷粉丝团,Blank"  
     var pro = new Array();  
     pro = stringpro.split(",");  
     var c = 0;  
@@ -28,13 +28,13 @@
     var cont = 0;  
     while(1)  
     {  
-            var tt = parseInt(Math.random()*4+1);  
+            var tt = parseInt(Math.random()*7+1);  
             if(!mark[tt])  
             {  
             mark[tt] = 1;  
                 vis[cont++] = tt;  
             }  
-            if(cont == 4)  
+            if(cont == 7)  
                 break;  
     }  
       
@@ -72,7 +72,7 @@
     arr.push(tt);  
     var tmp = tt;  
     tmp--;  
-    draw.innerHTML = draw.innerHTML + "<h1>第"+num+"组："+pro[tmp]+"<br/></h1>";  
+    draw.innerHTML = draw.innerHTML + "<h1>第"+num+"组抽中："+pro[tmp]+"<br/></h1>";  
     var tmp = new Array();  
     tmp.length = 0;  
     var cnt = 0;  
@@ -90,7 +90,7 @@
         vis[i] = tmp[i];  
     }  
     document.getElementById("count").innerHTML = arr.length;  
-    if(arr.length == 4){  
+    if(arr.length == 7){  
         alert("已经抽完!");  
     }  
  }  
@@ -115,7 +115,7 @@
             mark[tt] = 1;  
                 vis[cont++] = tt;  
             }  
-            if(cont == 4)  
+            if(cont == 7)  
                 break;  
     }  
   
