@@ -33,19 +33,32 @@ body {
 	width:80%;
 }
 /*****/
-.content
+/*.content
 {
 	background: url(../images/slider.jpg) no-repeat;
 	background-size: 100%;
 	background-size:cover;
-}
+}*/
 
 /*------- Skills rings-------*/
 .heading
 {
+	padding:3em 0em 4em 0em;
 	color:#292929;
 	border-bottom: 3.5px solid #E1E1E1;
-	width: 130px;
+	width: 150px;
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 1px #292929;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.heading2
+{
+	color:#292929;
+	border-bottom: 3.5px solid #E1E1E1;
+	width: 450px;
 	margin: 0 auto;
 	font-size: 1.5em;
 	text-transform: uppercase;
@@ -221,7 +234,32 @@ padding: 4em 0em;
     width: 4em;
     height: 4em;
 }
+.button_cv{
+background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 12px;
+}
 
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
 .timeline .experience-img img {
     -webkit-border-radius: 25%;
     -moz-border-radius: 25%;
@@ -236,9 +274,9 @@ padding: 4em 0em;
     margin-left: 5.444em;
 }
 /*****/
-.row-content2 {
+/*.row-content2 {
 padding: 6% 8%;
-}
+}*/
 .column.six, .column.half, .column.threesixths, .column.twofourths {
 width: 40%;
 }
@@ -349,12 +387,12 @@ textarea
 	background: url(../images/mail.png) no-repeat 0px 0px;
 	margin: 16px 0px 9px 9px;
 }
-.name
+/*.name
 {
 	float: left;
 	width:45%;
 	margin-right: 4%;
-}
+}*/
 .email
 {
 	float:right;
@@ -474,12 +512,15 @@ textarea
 }
 .plain li
 {
+	font-size: 1.3em;
+	color: white;
 	margin: 10px 0px;
 }
 .footer a ,.footer p{
-	color: #545766;
+	color: white;
+	/*color: #545766;*/
 	text-decoration: none;
-	font-size: 1.3em;
+	
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
